@@ -105,7 +105,7 @@ git push origin main
 ### Issue: `python3: command not found` or redirects to Microsoft Store
 On Windows, Python installs as `python.exe` by default. In Git Bash, make sure your `~/.bashrc` includes:
 ```bash
-export PATH="/c/Users/$USER/AppData/Local/Programs/Python/Python312:/c/Users/$USER/AppData/Local/Programs/Python/Python312/Scripts:$PATH"
+export PATH="/c/Users/$USER/AppData/Local/Programs/Python/Python313:/c/Users/$USER/AppData/Local/Programs/Python/Python313/Scripts:$PATH"
 alias python3="python"
 alias pip="python -m pip"
 ```
