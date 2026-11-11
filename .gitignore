@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets (API keys)
+.env
+.env.local
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE / Editor configs
+.vscode/
+.idea/
